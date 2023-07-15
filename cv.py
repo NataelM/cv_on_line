@@ -20,7 +20,7 @@ NAME = "Jonathan Ramírez"
 DESCRIPTION = """
 Soy un científico de datos capaz de garantizar elevados niveles de satisfacción del cliente. Con experiencia en desarrollo e implementación de código a tráves de diversos lenguajes de
 programación con el fin de ofrecer soluciones eficaces para la toma de decisiones, un sólido conocimiento matemático en modelos de Machine Learning supervisados, no supervisados,
-semisupervisados, Deep Learning, Series de Tiempo, Análisis Multivariado e Investigación de Operaciones.
+semisupervisados, Deep Learning (NLP, LLM, embeddinggs, langchain etc), Series de Tiempo, Análisis Multivariado e Investigación de Operaciones.
 Capaz de colaborar con los compañeros de trabajo para proporcionar excelentes resultados.
 """
 EMAIL = "natael@ciencias.unam.mx"
@@ -83,7 +83,7 @@ st.write(
     """
 - ✔️ 3 años de experiencia en el manejo y modelado de información con python.
 - ✔️ 2 años como profesor de adjunto en la UNAM en la materia de manejo de datos con python.
-- ✔️ Manejo de matemáticas y estadística de alto nivel.
+- ✔️ Manejo de matemáticas y estadística de alto nivel para la modelación de problemas.
 - ✔️ Trabajo en equipo y entrega de resultados de alto valor para los clientes.
 """
 )
@@ -94,13 +94,20 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👩‍💻 Software: Python, SPARK, SQL, R, Git/Git-Hub, Databricks, Office
+- 👩‍💻 Software: Python, SPARK, SQL, R, Git/Git-Hub, Databricks, Dataiku,Office
 - 📚 Conocimiento: - Machine lerning:
                         - Supervisado
                         - No supervisado
                         - Semi-supervisado
                    - Redes Neuronales
+                       - NLP
+                       - LLM
+                       - Embeddings
+                       - Langchain
                    - Series de tiempo
+                       - Técncias de suavizamientos
+                       - Modelos ARIMA
+                       - Modelos ARCH
 """
 )
 
@@ -111,11 +118,15 @@ st.subheader("Experiencia")
 st.write("---")
 
 # --- JOB 1
-st.write("🚧", "**Científico de Datos Senior | Grupo Salinas**")
+st.write("🚧", "**Científico de Datos Sr. | Grupo Salinas**")
 st.write("09/2022 - Present")
 st.write(
     """
-- ► Desarrollo e implementación de Algoritmos de Boosting para la detección temprana de
+- ► Gestión, orientación y propuestas en el desarrollo de modelos LLM para casuísticas en auditoría.
+- ► Desarrollo de modelo de CHURN en telecomunicaciones.
+- ► Evaluación de proveedores de software analítico para la productivización de desarrollos.
+- ► Evaluación de candidatos en Ciencia de Datos.
+- ► Desarrollo e implementación de Algoritmos de Boosting y rasgadura para la detección temprana de
     clientes potencialmente defraudadores y entregable en streamlit al usuario final.
 - ► Desarrollo e implementación de algoritmos semi-supervisados para la detección de cambios
     de domicilio.
